@@ -23,7 +23,7 @@ Python
 
 **Script being run**
 
-<img src="img/script.png" height="250">
+<img src="img/script.png">
 
 
 ### How to run Script locally
