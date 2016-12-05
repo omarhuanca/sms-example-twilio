@@ -1,2 +1,4 @@
 llaves.sh
 /env/
+*.pyc
+ngrok

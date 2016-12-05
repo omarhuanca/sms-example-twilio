@@ -11,12 +11,12 @@ A script that ask for a phone number and sends a text message to that number
 
 Using [Twilio](https://www.twilio.com/)'s python wrapper and API, the script ask the user for their phone number and send a text message to that number.   
 
-Step-by-step guide on how the script works and connecting it to Twilio by [chatasweetie](https://chatasweetie.com/) on the post [Twilio - Sending Text Message Demo](http://chatasweetie.com/)
+Step-by-step guide on how the script works and connecting it to Twilio by [chatasweetie](https://chatasweetie.com/) on the post that is coming soon: [Twilio - Sending Text Message Demo](http://chatasweetie.com/)
 
 
 ### Technology Stack
 
-Python
+Python, Twilio
 
 
 ### Screenshot
@@ -58,7 +58,7 @@ Note: The messaging functionality requires that you have a [Twilio](https://www.
 TWILIO_ACCOUNT_SID
 TWILIO_AUTH_TOKEN
 TWILIO_NUMBER
-
+```
 
 ### About the Developer    
 Jessica Dene Earley    
