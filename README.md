@@ -31,19 +31,17 @@ Python, Twilio
 Create a virtual environment 
 
 ```
-> virtualenv env
-> source env/bin/activate
+> python3 -m venv venv
+> virtualenv venv
+> source venv/bin/activate
 ```
 
 Install the dependencies
 
 ```
-> pip install -r requirements.txt
-```
-
-Source twilio keys
-```
-> source keys.sh
+> python3
+> pip install twilio
+> pip install phonenumbers
 ```
 
 Run script
@@ -54,14 +52,11 @@ Run script
 
 Note: The messaging functionality requires that you have a [Twilio](https://www.twilio.com/) account id, authorization token and phone number set as local environment variables:
 
-```
-TWILIO_ACCOUNT_SID
-TWILIO_AUTH_TOKEN
-TWILIO_NUMBER
-```
 
 ### About the Developer    
 Jessica Dene Earley    
 [Bio](https://chatasweetie.com/about-me/)   
 [Linkedin](https://www.linkedin.com/in/jessicaearley)    
 [Blog](https://chatasweetie.com/)    
+
+### Custom source code belongs BO

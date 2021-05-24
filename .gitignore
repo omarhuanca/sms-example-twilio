@@ -1,4 +1,7 @@
 llaves.sh
-/env/
+/venv/
 *.pyc
 ngrok
+
+# IDE
+.idea/*
