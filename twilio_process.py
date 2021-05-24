@@ -1,11 +1,11 @@
 # Sends a text message using Twilio
-import twilio
 from twilio.rest import Client
+from twilio.base.exceptions import TwilioRestException
 import phonenumbers
 
 # Twilio Account Information
 TWILIO_ACCOUNT_SID="AC21508f4563959ebe831d5d269b2c67a0"
-TWILIO_AUTH_TOKEN="1f1299710c185e146239ec2891ededea"
+TWILIO_AUTH_TOKEN="cdeb4f9bfea9be87a663081b6762d92d"
 TWILIO_NUMBER="+19792014980"
 
 
@@ -22,7 +22,7 @@ def send_text_message(phone):
             to=phone,
             from_=TWILIO_NUMBER
         )
-    except twilio.TwilioRestException as e:
+    except TwilioRestException as e:
         print(e)
 
 
